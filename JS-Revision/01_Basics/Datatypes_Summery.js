@@ -22,3 +22,7 @@ console.log(typeof id , typeof anotherID)
 
 // 1) function() {}
 //2)Storing a function in a variable - "const myFunction = function(){} " 
+
+
+//++++++++++++++++++++++++++++
+
