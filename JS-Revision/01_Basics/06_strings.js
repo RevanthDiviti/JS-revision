@@ -28,5 +28,14 @@ const anotherString = gameName.slice(-8,4)
 console.log(anotherString)
 
 const newStringOne = "   hitesh   "
-console.log(newStringOne);
-console.log(newStringOne.trim()) //trim is used to remove spaces in string
+console.log(newStringOne);  // Ans - "  hitesh  "
+console.log(newStringOne.trim()) //trim is used to remove spaces in string   Ans- hitesh
+
+const url= "https://hitesh.com/hitesh%20choudary";
+console.log(url.replace('%20','-'));  // replace function in string.
+
+console.log(url.includes('Revanth'))  // include checks whether this word is in the string or not.
+
+const newName = "Diviti-Revanth-Mudiraj";
+
+console.log(newName.split('-'));  //Gives an array with elements
